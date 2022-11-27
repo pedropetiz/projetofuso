@@ -1,0 +1,369 @@
+body{
+    background: #F1F1F1;
+    font-family: karla, system-ui, sans-serif;
+    margin: 0;
+   }
+   
+.container{
+    display: grid;
+    grid-template-columns: repeat(11, minmax(0, 1fr));
+}
+
+.fuse {
+    grid-column: 1 / 13;
+    grid-row: 1;
+    margin-left: 50px;
+    margin-top: 17px;
+}
+
+.mundo {
+    grid-column: 10 / 13;
+    grid-row: 1;
+    margin-left: 50px;
+    margin-top: 37px;
+}
+
+.idioma {
+    grid-column: 11 / 13;
+    grid-row: 1;
+    margin-top: 40px;
+}
+
+.barra {
+    background: rgba(86, 110, 180, 0.7);;
+    grid-column: 1 / 13;
+    grid-row: 1;
+    color: #FFF;
+    height: 90px;
+    display: grid;
+}
+
+
+
+#divBusca {
+    background: #7282b3;
+    border: 2px solid #FFFFFF;
+    border-radius: 9px;
+    grid-column: 7 / 13;
+    width: 500px;
+    height: 30px;
+    margin-top: 35px;
+    grid-row: 1;
+}
+
+#txtBusca {
+    float: left;
+    background-color: transparent;
+    padding-left: 6px;
+    font-size: 20px;
+    border: none;
+    height: 31px;
+    width: 191px;
+    color: white;
+}
+
+#txtBusca:focus {
+    outline: none;
+    color: #FFF;
+}
+
+#pesquisa {
+    width: 20px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+#btnBusca {
+    border: none;
+    float: left;
+    height: 32px;
+    border-radius: 0 7px 7px 0;
+    width: 70px;
+    font-weight: bold;
+    background: #5F9EA0;
+}
+
+#divBusca img {
+    float: left;
+}
+
+.topo {
+    background: #6B7D8F;
+    grid-column: 1 / 13;
+    grid-row: 1;
+    color: #FFF;
+}
+
+
+.menu-abaixo{
+    background: rgba(86, 110, 180, 0.9);
+    font-size: 24px;
+    grid-column: 1;
+    width: 1903px;
+    height: 80px;
+}
+
+.menu-abaixo a{
+    color: white;
+    text-decoration: none;
+}
+
+.menu-abaixo ul li{
+    display: inline-block;
+    padding-right: 200px;
+    margin-left: 150px;
+}
+
+
+.seus-locais{
+    color: rgba(68, 95, 175, 0.9);
+    grid-row: 3;
+    grid-column-start: 3;
+    grid-column-end: 5;
+}
+
+.bali{
+margin-top: 100px;
+grid-column: 3;
+grid-row: 3;
+}
+
+.sp{
+margin-top: 100px;
+grid-column: 5;
+grid-row: 3;
+}
+
+.paris{
+    margin-top: 100px;
+    grid-column: 7;
+    grid-row: 3;
+}
+   
+.melbourne{
+    margin-top: 100px;
+    grid-column: 9;
+    grid-row: 3;
+}
+
+
+
+.split{
+margin-top: 100px;
+grid-column: 3;
+grid-row: 4;
+}
+
+.tulum{
+ margin-top: 100px;
+grid-column: 5;
+grid-row: 4;
+}
+
+.veneza{
+margin-top: 100px;
+grid-column: 7;
+grid-row: 4;
+}
+
+.havai{
+margin-top: 100px;
+grid-column: 9;
+grid-row: 4;
+}
+
+.tel-aviv{
+margin-top: 100px;
+grid-column: 3;
+grid-row: 5;
+}
+
+.bangkok{
+margin-top: 100px;
+grid-column: 5;
+grid-row: 5;
+}
+
+.saigon{
+margin-top: 100px;
+grid-column: 7;
+grid-row: 5;
+}
+
+.madri{
+ margin-top: 100px;
+grid-column: 9;
+grid-row: 5;
+}
+
+.lisboa{
+margin-top: 100px;
+grid-column: 3;
+grid-row: 6;
+}
+
+.seul{
+margin-top: 100px;
+grid-column: 5;
+grid-row: 6;
+}
+
+.california{
+ margin-top: 100px;
+grid-column: 7;
+grid-row: 6;
+}
+
+.oslo{
+margin-top: 100px;
+grid-column: 9;
+grid-row: 6;
+}
+
+.helsinque{
+margin-top: 100px;
+grid-column: 3;
+grid-row: 7;
+}
+
+.wellington{
+margin-top: 100px;
+grid-column: 5;
+grid-row: 7;
+}
+
+.floripa{
+margin-top: 100px;
+grid-column: 7;
+grid-row: 7;
+}
+
+.berlim{
+margin-top: 100px;
+grid-column: 9;
+grid-row: 7;
+}
+
+.footerr{
+    grid-row: 10;
+    display: grid;
+    grid-template-columns: repeat(9, minmax(0, 1fr));
+    grid-template-rows: repeat(6, minmax(0, 1fr));
+    text-align: left;
+    background:  #565c68;
+    color: #FFF;
+    height: 450px;
+    width: 1903px;
+    margin-top: 200px;
+}
+
+.logofooter{
+    width: 200px;
+    grid-column: 2 / 11;
+    grid-row: 2;
+    margin-top: 30px;
+}
+
+.baixe{
+    grid-column: 5;
+    grid-row: 2;
+    font-size: 30px;
+}
+
+.siga{
+    grid-column: 8;
+    grid-row: 2;
+    font-size: 30px;
+}
+
+.apple{
+    width: 40px;
+    grid-row: 3;
+    grid-column: 5;
+    margin-top: -9px;
+    }
+    
+    .android{
+    width: 40px;
+    grid-row: 3;
+    grid-column: 5;
+    margin-left: 70px;
+    margin-top: -8px;
+    }
+    
+    .facebook{
+        width: 40px;
+        grid-row: 3;
+        grid-column: 8;
+        margin-top: -9px;
+        }
+        
+    .twitter{
+        width: 40px;
+        grid-row: 3;
+        grid-column: 8;
+        margin-left: -100px;
+        margin-top: -9px;
+        }
+    
+    .youtube{
+            width: 40px;
+            grid-row: 3;
+            grid-column: 9;
+            margin-left: -10px;
+            margin-top: -9px;
+            }
+            
+    .instagram{
+            width: 40px;
+            grid-row: 3;
+            grid-column: 8;
+            margin-left: 100px;
+            margin-top: -9px;
+            }
+.linha{
+grid-row: 4;
+grid-column: 2;
+width: 1600px;
+margin-left: -50px;
+}
+
+.lista-1{
+    grid-column: 2;
+    grid-row: 4;
+    margin-top: 5px;
+    font-size: 25px;
+}
+
+.lista-1 li{
+    list-style: none;
+    padding-bottom: 5px;
+    margin-left: -40px;
+}
+
+.lista-2{
+    grid-column: 5;
+    grid-row: 4;
+    margin-top: 5px;
+    font-size: 25px;
+}
+
+.lista-2 li{
+    list-style: none;
+    padding-bottom: 5px;
+    margin-left: -40px;
+}
+
+.lista-3{
+    grid-column-start: 8;
+    grid-column-end: 10;
+    grid-row: 4;
+    margin-top: 5px;
+    font-size: 25px;
+}
+
+.lista-3 li{
+    list-style: none;
+    padding-bottom: 5px;
+    margin-left: -40px;
+}
