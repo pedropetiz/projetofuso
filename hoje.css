@@ -7,7 +7,6 @@ body {
     background-size: 100%;
 }
 
-
 .container {
     display: grid;
     grid-template-columns: repeat(12, minmax(0, 1fr));
@@ -46,6 +45,117 @@ body {
 
 #divBusca {
     background: rgba(86, 110, 180, 0.7);
+    border: 2px solid #FFFFFF;
+    border-radius: 9px;
+    grid-column: 7 / 13;
+    width: 500px;
+    height: 30px;
+    margin-top: 35px;
+    grid-row: 1;
+}
+
+#txtBusca {
+    float: left;
+    background-color: transparent;
+    padding-left: 6px;
+    font-size: 20px;
+    border: none;
+    height: 31px;
+    width: 191px;
+    color: white;
+}
+
+#txtBusca:focus {
+    outline: none;
+    color: #FFF;
+}
+
+#pesquisa {
+    width: 20px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+#btnBusca {
+    border: none;
+    float: left;
+    height: 32px;
+    border-radius: 0 7px 7px 0;
+    width: 70px;
+    font-weight: bold;
+    background: #5F9EA0;
+}
+
+#divBusca img {
+    float: left;
+}
+
+.topo {
+    background: #6B7D8F;
+    grid-column: 1 / 13;
+    grid-row: 1;
+    color: #FFF;
+}
+
+.menu-abaixo{
+    background: rgba(86, 110, 180, 0.9);
+    font-size: 24px;
+    grid-column: 1;
+    width: 1903px;
+}
+
+.menu-abaixo a{
+    color: white;
+    text-decoration: none;
+}
+
+.menu-abaixo ul li{body {
+    background: #CCC;
+    font-family: karla, system-ui, sans-serif;
+    margin: 0;
+    background-image: url(file:///C:/Users/ra00327078/Downloads/fuso/bluesky.png);
+    background-repeat: no-repeat;
+}
+
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+}
+
+.fuse {
+    grid-column: 1 / 13;
+    grid-row: 1;
+    margin-left: 50px;
+    margin-top: 17px;
+}
+
+.mundo {
+    grid-column: 10 / 13;
+    grid-row: 1;
+    margin-left: 50px;
+    margin-top: 37px;
+}
+
+.idioma {
+    grid-column: 11 / 13;
+    grid-row: 1;
+    margin-top: 40px;
+}
+
+.barra {
+    background: rgba(86, 110, 180, 0.7);
+    grid-column: 1 / 13;
+    grid-row: 1;
+    color: #FFF;
+    height: 90px;
+    display: grid;
+}
+
+
+
+#divBusca {
+    background: #7282b3;
     border: 2px solid #FFFFFF;
     border-radius: 9px;
     grid-column: 7 / 13;
@@ -438,6 +548,27 @@ h2 {
     font-size:10px;
     margin-left: 10px;
     margin-top: -5px;
+}
+
+
+.footerr{
+    display: grid;
+    grid-template-columns: repeat(9, minmax(0, 1fr));
+    grid-template-rows: repeat(6, minmax(0, 1fr));
+    text-align: left;
+    background:  #565c68;
+    color: #FFF;
+    height: 450px;
+    width: 1903px;
+    margin-top: 100px;
+    margin-left: -482px;
+}
+
+.logofooter{
+    width: 200px;
+    grid-column: 2 / 11;
+    grid-row: 2;
+    margin-top: 30px;
 }
 
 .baixe{
