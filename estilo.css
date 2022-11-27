@@ -5,13 +5,6 @@ body {
     background-repeat: no-repeat;
     background-size: 100%;
 }
-body {
-    background: #CCC;
-    font-family: karla, system-ui, sans-serif;
-    margin: 0;
-    background-image: url(file:///F:/petiz/Download/site/bluesky.png);
-    background-repeat: no-repeat;
-}
 
 .container {
     display: grid;
