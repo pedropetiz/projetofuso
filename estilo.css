@@ -2,7 +2,7 @@ body {
     background: #CCC;
     font-family: karla, system-ui, sans-serif;
     margin: 0;
-    background-image: url(bluesky.png);
+    background-image: url(../main/bluesky.png);
     background-repeat: no-repeat;
 }
 
