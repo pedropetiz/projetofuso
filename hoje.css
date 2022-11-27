@@ -2,8 +2,9 @@ body {
     background: #CCC;
     font-family: karla, system-ui, sans-serif;
     margin: 0;
-    background-image: url(file:///C:/Users/ra00327078/Downloads/fuso/bluesky.png);
+    background-image: url(https://scontent.fcgh37-1.fna.fbcdn.net/v/t39.30808-6/317316638_563048172494324_6983537931653732890_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=730e14&_nc_ohc=Wo_-jrcewkgAX_EpM3R&_nc_ht=scontent.fcgh37-1.fna&oh=00_AfCaeVT8O2K14ePosRPZnuhk9Z34TpzlM56edH4QL8uARg&oe=638783EF);
     background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 
