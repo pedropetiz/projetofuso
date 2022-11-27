@@ -2,8 +2,9 @@ body {
     background: #CCC;
     font-family: karla, system-ui, sans-serif;
     margin: 0;
-    background-image: url(file:///C:/Users/ra00327078/Downloads/fuso/nightsky.png);
+    background-image: url(https://scontent.fcgh37-1.fna.fbcdn.net/v/t39.30808-6/317587157_563048319160976_3970637024319997410_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=730e14&_nc_ohc=MhycpiSIyEoAX9oMKup&_nc_ht=scontent.fcgh37-1.fna&oh=00_AfBuYfqNM47BXrOqjXYdJ9X_qPJFp7VFyioAMNeJGzQheg&oe=6387B374);
     background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 
